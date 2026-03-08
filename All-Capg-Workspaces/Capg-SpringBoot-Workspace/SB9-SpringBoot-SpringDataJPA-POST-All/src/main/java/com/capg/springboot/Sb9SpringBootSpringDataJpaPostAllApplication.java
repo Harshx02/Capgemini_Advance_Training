@@ -1,0 +1,14 @@
+package com.capg.springboot;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class Sb9SpringBootSpringDataJpaPostAllApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(Sb9SpringBootSpringDataJpaPostAllApplication.class, args);
+		System.out.println("SpringBoot Started");
+	}
+
+}
